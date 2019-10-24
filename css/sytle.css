@@ -1,0 +1,23 @@
+body{
+    background-attachment: fixed;
+    background-image: url("https://bit.ly/2pNGflR");
+    color: white;
+}
+p{
+    font-size: 50px;
+    color: aliceblue;
+}
+label{
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+.form label{
+    color: aliceblue;
+
+}
+#gender {
+    color: antiquewhite;
+
+}

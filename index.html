@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akan Names</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/sytle.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+        <div class="overlay">             
+        <div class="container">
+        <div class="jumbotron text-center">
+            <h1>AKAN NAMES</h1>
+        </div>
+        <p>Akan is the language of the people called akan.<br>Akan names are derived from Ghanian culture.<br>children are given their first name as a 'day name' which
+            corresponds to the day in the week they were born.<br>  It is a cultural event held with high esteem and passed to tradition.</p>
+            <div class="form">
+                
+                <label>YEAR OF BIRTH</label><br>
+                        <input type="number" min="1900" max="2099" step="1" placeholder="YYYY" />
+                <br><br>
+                
+                        <label>BIRTH MONTH:</label><br>
+        
+                        <input type="month" name="birthmonth"><br><br>
+            
+                            <label for="Start">Day OF BIRTH </label><br>
+                              <input type="number" name="DAY" id="start"
+                              min="01" max="31"  placeholder="DD" ><br><br>
+                        
+                           <label for="start">CENTURY:</label><br>
+                           <input type="number" id="start" name="CC"  placeholder="CC"
+                             min="01" max="25"><br><br>
+                             <label>GENDER</label><br>
+                             <div id="gender">
+                                    <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+                                    <input type="radio" name="gender" value="female" >Female<br>
+                             </div>
+                     <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="output()">
+        
+</div>
+
+    
+           <p id="display"></p>
+              </div>
+            </div>
+         </body>
+       </html>
