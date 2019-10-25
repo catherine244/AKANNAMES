@@ -6,6 +6,7 @@ body{
 p{
     font-size: 30px;
     color: aliceblue;
+    text-align: center;
 }
 label{
     text-align: center;
