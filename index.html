@@ -16,11 +16,10 @@ integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07j
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/sytle.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="js/script.js">
 </head>
 
 <body>
-                    
+        <div class="overlay">             
         <div class="container">
         <div class="jumbotron text-center">
             <h1>AKAN NAMES</h1>
@@ -30,25 +29,29 @@ integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07j
             <div class="form">
                 
                 <label>YEAR OF BIRTH</label><br>
-                        <input type="number" id="year" min="1900" max="2099" step="1" placeholder="YYYY" />
+                        <input type="number" id="year" min="1900" max="2099" step="1" placeholder="YYYY" value="" />
                 <br><br>
                 
                         <label>BIRTH MONTH:</label><br>
         
-                        <input type="number" id="month" min="01" max="12"  step="1" placeholder="MM"/><br><br>
+                        <input type="number" id="month" min="01" max="12"  step="1" placeholder="MM" value=""/><br><br>
             
                             <label>Day OF BIRTH </label><br>
                               <input type="number" name="DAY" id="day"
-                              min="01" max="31"  placeholder="DD"/><br><br>
-                              <label>GENDER</label><br>
+                              min="01" max="31"  placeholder="DD" value="" ><br><br>
+                             <label>GENDER</label><br>
                              <div id="gender">
                                     <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
                                     <input type="radio" name="gender" value="female" >Female<br>
                              </div>
                      <input type="submit" value="Submit" class="btn btn-primary btn-lg" onclick="results()">
-                        </div>
-                      </div>
-                      <p id="display"></p>
-            <script src="js/script.js"></script>
-            </body>
+        
+                 </div>
+
+    
+                        <p id="display"></p>
+              </div>
+              <script src="js/script.js"></script>
+            </div>
+         </body>
        </html>

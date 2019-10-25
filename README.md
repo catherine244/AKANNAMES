@@ -25,14 +25,14 @@ The Akan people of Ghana frequently name their children after the day of the wee
   - Once you input correct details of birth you select Gender and click SUBMIT button  then you will get your Akan name
 
 ## PROJECTS LIVE LINK 
- -  github link :https://catherine244.github.io/AKANNAMES/
+   github link :https://catherine244.github.io/AKANNAMES/
 
 
 ## CONTACT INFORMATION 
- - ccayreen24@gmail.com
+  (ccayreen24@gmail.com)
 
 
 
 ## LICENSE 
  
- -  [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+  [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
