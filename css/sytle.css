@@ -3,6 +3,7 @@ body{
     background-image: url("https://bit.ly/2pNGflR");
     color: white;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 p{
     font-size: 30px;
