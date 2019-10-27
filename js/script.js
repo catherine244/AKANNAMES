@@ -1,4 +1,4 @@
-  alert("Get to know your Akan Name")
+  // alert("Get to know your Akan Name")
   function results() {
     var month = document.getElementById("month").value;
     var mm = parseInt(month);
