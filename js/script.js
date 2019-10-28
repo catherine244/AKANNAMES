@@ -6,7 +6,7 @@ function results() {
     var year =parseInt(document.getElementById("year").value);
     var day=parseInt(document.getElementById("day").value);
     var date=new Date(year + "/" + month + "/" + day);
-    var gender=checkout();
+    var gender= print();
     var day2=date.getDay();
     var akan; 
 
@@ -18,8 +18,7 @@ function results() {
         alert("Invalid month");
         return false;
     }
-    
-    if(year <1900 || year >2019){
+    if(year <1900 || year >2030){
             alert("invalid year");
             return false;
     }
@@ -31,7 +30,7 @@ function results() {
     }
             alert("You were born on   " + dayOfTheWeek [day2] + "  and your akan name is " + akan);
 }
-function checkout(){
+function print(){
     var gender=document.getElementsByName("gender");
     for(i=0; i<gender.length; i++){
         if(gender[i].checked){
